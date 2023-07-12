@@ -241,6 +241,34 @@
         "wires": []
     },
     {
+        "id": "c2c0e95fddfa3bae",
+        "type": "status",
+        "z": "1390d987637f1e75",
+        "name": "",
+        "scope": null,
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "4caec0e009521ec2"
+            ]
+        ]
+    },
+    {
+        "id": "4caec0e009521ec2",
+        "type": "link call",
+        "z": "1390d987637f1e75",
+        "name": "",
+        "links": [],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 350,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "f13ae66d4b53c38b",
         "type": "inject",
         "z": "3afdd3e875de2075",
@@ -262,7 +290,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 200,
-        "y": 40,
+        "y": 140,
         "wires": [
             [
                 "288375985a22b697"
@@ -329,5 +357,57 @@
         "x": 420,
         "y": 100,
         "wires": []
+    },
+    {
+        "id": "c6fd55e889460c20",
+        "type": "function",
+        "z": "92309b2f6dec4778",
+        "name": "function 1",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "5e1ac958d9062380"
+            ]
+        ]
+    },
+    {
+        "id": "55a4278db3763dcf",
+        "type": "comment",
+        "z": "92309b2f6dec4778",
+        "name": "",
+        "info": "",
+        "x": 160,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5e1ac958d9062380",
+        "type": "switch",
+        "z": "92309b2f6dec4778",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 220,
+        "wires": [
+            []
+        ]
     }
 ]
