@@ -40,6 +40,14 @@
         "env": []
     },
     {
+        "id": "7b013bb8173dfa19",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "913459e594ab3683",
         "type": "ui_tab",
         "name": "Home",
@@ -154,6 +162,115 @@
         "width": "6",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "c4e01908418abb1e",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "093319af6168ea8c",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dad6f87911469750",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "49da19cddbc79c6f",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "91349bd9ff55fc34",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e9173532958c5350",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "98e02466d9bce03a",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1c5068c3a812f642",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f1a2777072864df5",
+        "type": "ui_spacer",
+        "z": "7b013bb8173dfa19",
+        "name": "spacer",
+        "group": "541f541db0877f74",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "541f541db0877f74",
+        "type": "ui_group",
+        "name": "sw2",
+        "tab": "5569bbb537148d5a",
+        "order": 1,
+        "disp": true,
+        "width": "13",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "5569bbb537148d5a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "c112e335f0705016",
@@ -982,5 +1099,590 @@
         "x": 570,
         "y": 440,
         "wires": []
+    },
+    {
+        "id": "172acf90679405ed",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 3,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8488ed8630ea5fac",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 6,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4918248aa37662e2",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 9,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5dfa84af8e69c364",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 12,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "88b9a34e56c64016",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 15,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "72c55b7f9b963c6f",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 18,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5fc8c8d89b098efb",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 21,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "83caa2ace6928db5",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 24,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 730,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "eb4a1d624036296a",
+        "type": "ui_led",
+        "z": "7b013bb8173dfa19",
+        "order": 27,
+        "group": "541f541db0877f74",
+        "width": 6,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 750,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "a1c101e1afc30c5d",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 490,
+        "y": 160,
+        "wires": [
+            [
+                "172acf90679405ed"
+            ]
+        ]
+    },
+    {
+        "id": "9f8bbce31cf7e984",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 490,
+        "y": 220,
+        "wires": [
+            [
+                "8488ed8630ea5fac"
+            ]
+        ]
+    },
+    {
+        "id": "b7b89df37f482331",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 510,
+        "y": 300,
+        "wires": [
+            [
+                "4918248aa37662e2"
+            ]
+        ]
+    },
+    {
+        "id": "35bd0e3ba88b7dd7",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 510,
+        "y": 340,
+        "wires": [
+            [
+                "5dfa84af8e69c364"
+            ]
+        ]
+    },
+    {
+        "id": "018f0c5774a863ad",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 13,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 510,
+        "y": 400,
+        "wires": [
+            [
+                "88b9a34e56c64016"
+            ]
+        ]
+    },
+    {
+        "id": "edabd09cca76a2e5",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 16,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 510,
+        "y": 440,
+        "wires": [
+            [
+                "72c55b7f9b963c6f"
+            ]
+        ]
+    },
+    {
+        "id": "30df660d5682b1ab",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 19,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 510,
+        "y": 500,
+        "wires": [
+            [
+                "5fc8c8d89b098efb"
+            ]
+        ]
+    },
+    {
+        "id": "8a9b5ed56f6c68f4",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 22,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "83caa2ace6928db5"
+            ]
+        ]
+    },
+    {
+        "id": "1febef1552d8440d",
+        "type": "ui_switch",
+        "z": "7b013bb8173dfa19",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "541f541db0877f74",
+        "order": 25,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 530,
+        "y": 580,
+        "wires": [
+            [
+                "eb4a1d624036296a"
+            ]
+        ]
     }
 ]
