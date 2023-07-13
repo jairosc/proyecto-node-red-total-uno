@@ -48,6 +48,14 @@
         "env": []
     },
     {
+        "id": "f3cfecb4f193a51a",
+        "type": "tab",
+        "label": "Flow 6",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "913459e594ab3683",
         "type": "ui_tab",
         "name": "Home",
@@ -271,6 +279,25 @@
         "icon": "dashboard",
         "disabled": false,
         "hidden": false
+    },
+    {
+        "id": "6dc7bcc00c40cf7b",
+        "type": "ui_tab",
+        "name": "graf",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cd60d385e7e1cd56",
+        "type": "ui_group",
+        "name": "graficos",
+        "tab": "6dc7bcc00c40cf7b",
+        "order": 1,
+        "disp": true,
+        "width": "26",
+        "collapse": true,
+        "className": ""
     },
     {
         "id": "c112e335f0705016",
@@ -1127,8 +1154,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 730,
-        "y": 180,
+        "x": 490,
+        "y": 60,
         "wires": []
     },
     {
@@ -1158,8 +1185,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 730,
-        "y": 240,
+        "x": 510,
+        "y": 180,
         "wires": []
     },
     {
@@ -1189,8 +1216,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 730,
-        "y": 300,
+        "x": 510,
+        "y": 260,
         "wires": []
     },
     {
@@ -1220,8 +1247,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 730,
-        "y": 340,
+        "x": 530,
+        "y": 320,
         "wires": []
     },
     {
@@ -1251,8 +1278,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 730,
-        "y": 400,
+        "x": 530,
+        "y": 360,
         "wires": []
     },
     {
@@ -1282,8 +1309,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 730,
-        "y": 440,
+        "x": 550,
+        "y": 420,
         "wires": []
     },
     {
@@ -1313,8 +1340,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 730,
-        "y": 500,
+        "x": 550,
+        "y": 480,
         "wires": []
     },
     {
@@ -1405,8 +1432,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 490,
-        "y": 160,
+        "x": 290,
+        "y": 120,
         "wires": [
             [
                 "172acf90679405ed"
@@ -1439,8 +1466,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 490,
-        "y": 220,
+        "x": 310,
+        "y": 200,
         "wires": [
             [
                 "8488ed8630ea5fac"
@@ -1473,8 +1500,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 510,
-        "y": 300,
+        "x": 310,
+        "y": 260,
         "wires": [
             [
                 "4918248aa37662e2"
@@ -1507,8 +1534,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 510,
-        "y": 340,
+        "x": 310,
+        "y": 320,
         "wires": [
             [
                 "5dfa84af8e69c364"
@@ -1541,8 +1568,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 510,
-        "y": 400,
+        "x": 330,
+        "y": 380,
         "wires": [
             [
                 "88b9a34e56c64016"
@@ -1575,7 +1602,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 510,
+        "x": 330,
         "y": 440,
         "wires": [
             [
@@ -1609,8 +1636,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 510,
-        "y": 500,
+        "x": 330,
+        "y": 480,
         "wires": [
             [
                 "5fc8c8d89b098efb"
@@ -1682,6 +1709,68 @@
         "wires": [
             [
                 "eb4a1d624036296a"
+            ]
+        ]
+    },
+    {
+        "id": "4267bf983a293fd4",
+        "type": "ui_chart",
+        "z": "f3cfecb4f193a51a",
+        "name": "",
+        "group": "cd60d385e7e1cd56",
+        "order": 0,
+        "width": "26",
+        "height": "12",
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 470,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da212cd16d17f332",
+        "type": "ping",
+        "z": "f3cfecb4f193a51a",
+        "protocol": "Automatic",
+        "mode": "timed",
+        "name": "gg",
+        "host": "www.google.com",
+        "timer": "2",
+        "inputs": 0,
+        "x": 210,
+        "y": 240,
+        "wires": [
+            [
+                "4267bf983a293fd4"
             ]
         ]
     }
